@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="Amazon" />
+        <module name="Ebbay" />
+        <module name="Facebook" />
+        <module name="generic" />
+        <module name="Yahoo" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="Amazon" target="1.8" />
+      <module name="autofwktutorial" target="1.8" />
+      <module name="Ebbay" target="1.8" />
+      <module name="facebook" target="1.8" />
+      <module name="Facebook" target="1.8" />
+      <module name="generic" target="1.8" />
+      <module name="Gmail" target="1.8" />
+      <module name="pntautomation" target="1.8" />
+      <module name="Yahoo" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

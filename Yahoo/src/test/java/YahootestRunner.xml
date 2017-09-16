@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Yahoo" parallel="tests">
+
+    <parameter name="browserName" value="chrome"/>
+
+    <parameter name="url" value="https://www.yahoo.com/"/>
+
+    <parameter name="operatingSystem" value="macOS"/>
+    <test name="Yahoo Homepage">
+
+        <classes>
+            <class name="yahoohomepage.Testyahoohomepage"/>
+        </classes>
+    </test>
+</suite>
