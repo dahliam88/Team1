@@ -16,6 +16,8 @@ public class FacebookHome extends CommonAPI {
     @FindBy(how = How.ID, using = "u_0_2")
     WebElement loginBtn;
 
+    @FindBy(how = How.ID, using = "")
+
     public void loginFB (String email, String password) {
         emailorPhoneBox.sendKeys(email);
         passwordBox.sendKeys(password);
